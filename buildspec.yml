@@ -24,7 +24,7 @@ phases:
     - echo Pushing docker image
     - docker push $IMAGE_URI
     - echo push completed
-    - printf '[{"name":"%s","imageUri":"%s"}]' authorization $IMAGE_URI > imagedefinitions.json
+    - printf '[{"name":"%s","imageUri":"%s"}]' saritha-pms-auth-container $IMAGE_URI > imagedefinitions.json
 artifacts:
   files:
   - imagedefinitions.json
