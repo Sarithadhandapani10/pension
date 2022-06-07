@@ -3,8 +3,8 @@ Resources:
 - TargetService:
 Type: AWS::ECS::Service
 Properties:
-TaskDefinition: "arn:aws:ecs:us-east-1:156962844638:task-definition/auth_fse818:1"
+TaskDefinition: "arn:aws:ecs:us-east-1:156962844638:task-definition/saritha-pms-auth-task-definition:1"
 LoadBalancerInfo:
-ContainerName: "authorization"
+ContainerName: "saritha-pms-auth-container"
 ContainerPort: 8104
 PlatformVersion: "LATEST"
