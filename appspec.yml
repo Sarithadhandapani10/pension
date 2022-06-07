@@ -1,0 +1,10 @@
+version: 0.0
+Resources:
+- TargetService:
+Type: AWS::ECS::Service
+Properties:
+TaskDefinition: "arn:aws:ecs:us-east-1:156962844638:task-definition/auth_fse818:1"
+LoadBalancerInfo:
+ContainerName: "authorization"
+ContainerPort: 8104
+PlatformVersion: "LATEST"

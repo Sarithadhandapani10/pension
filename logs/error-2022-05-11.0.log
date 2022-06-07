@@ -1,0 +1,156 @@
+2022-05-09_13-46-06 [http-nio-8104-exec-3] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-09_13-46-06 [http-nio-8104-exec-4] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-09_13-46-06 [http-nio-8104-exec-5] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-09_13-46-06 [http-nio-8104-exec-6] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_12-44-25 [http-nio-8104-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_12-44-25 [http-nio-8104-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_12-44-25 [http-nio-8104-exec-3] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_12-44-25 [http-nio-8104-exec-4] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_12-44-25 [http-nio-8104-exec-5] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_12-48-23 [http-nio-8104-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_12-48-23 [http-nio-8104-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_12-48-23 [http-nio-8104-exec-10] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_13-19-57 [HikariPool-2 connection adder] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Error thrown while acquiring connection from data source
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Session.checkSuspended(Session.java:1369)
+	at org.h2.engine.Session.transitionToState(Session.java:1361)
+	at org.h2.engine.Session.setCurrentCommand(Session.java:1343)
+	at org.h2.engine.Session.startStatementWithinTransaction(Session.java:1853)
+	at org.h2.command.Command.executeQuery(Command.java:190)
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:631)
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:363)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2022-05-11_13-25-09 [http-nio-8104-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_13-25-09 [http-nio-8104-exec-5] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_13-25-09 [http-nio-8104-exec-4] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_13-31-15 [http-nio-8104-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_13-31-15 [http-nio-8104-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_13-31-15 [http-nio-8104-exec-5] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_13-45-02 [http-nio-8104-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_13-45-02 [http-nio-8104-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_13-45-02 [http-nio-8104-exec-3] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_13-45-02 [http-nio-8104-exec-4] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_14-59-10 [http-nio-8104-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-05-11_18-23-16 [http-nio-8104-exec-1] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_18-23-16 [http-nio-8104-exec-2] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_18-23-16 [http-nio-8104-exec-3] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_18-23-16 [http-nio-8104-exec-4] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-52-33 [http-nio-8104-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - null
+2022-05-11_19-52-33 [http-nio-8104-exec-1] ERROR o.s.w.servlet.HandlerExecutionChain - HandlerInterceptor.afterCompletion threw exception
+java.lang.NullPointerException: null
+	at org.springframework.boot.actuate.metrics.web.servlet.LongTaskTimingHandlerInterceptor.stopLongTaskTimers(LongTaskTimingHandlerInterceptor.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.LongTaskTimingHandlerInterceptor.afterCompletion(LongTaskTimingHandlerInterceptor.java:79)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:178)
+	at org.springframework.web.servlet.DispatcherServlet.triggerAfterCompletion(DispatcherServlet.java:1447)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.cts.authorization.configuration.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2022-05-11_19-59-22 [http-nio-8104-exec-3] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-59-22 [http-nio-8104-exec-4] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-59-22 [http-nio-8104-exec-7] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-59-22 [http-nio-8104-exec-8] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-59-22 [http-nio-8104-exec-9] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-59-22 [http-nio-8104-exec-3] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-59-22 [http-nio-8104-exec-4] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-59-22 [http-nio-8104-exec-8] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-59-22 [http-nio-8104-exec-5] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-59-22 [http-nio-8104-exec-4] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-59-22 [http-nio-8104-exec-7] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-59-22 [http-nio-8104-exec-9] ERROR c.c.a.configuration.JwtRequestFilter - JWT Token has expired
+2022-05-11_19-59-22 [http-nio-8104-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
